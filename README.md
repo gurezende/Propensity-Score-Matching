@@ -4,6 +4,8 @@ This project provides a step-by-step implementation of **Propensity Score Matchi
 
 In observational studies, treatment assignment is rarely random. This notebook demonstrates how to create a "balanced" dataset (finding statistical twins) to move from simple correlation to **Causal Inference**.
 
+![Propensity Score Matching](blog2.png)
+
 ## 🚀 Overview
 
 Simple averages in data often "lie" because of **Selection Bias**. For example, if we want to measure the impact of an advertisement on spending, we might find that people who saw the ad spent more. However, if those people were already frequent shoppers (high propensity to see the ad), the ad might not be the cause of the increase.
